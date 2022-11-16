@@ -11,23 +11,26 @@ def calcular_media(matricula):
 
 
 def lancar_av1():
-    matricula, nota = list(map(int, input(
-        "Digite a matrícula do aluno e a nota AV1 separados por espaço: "
-    ).split()))
+    entrada = int, input(
+        "Digite a matrícula do aluno e a nota AV1 separados por espaço: ").split()
+    matricula = int(entrada[0])
+    nota = float(entrada[1])
     alunos[matricula][0] = nota
 
 
 def lancar_av2():
-    matricula, nota = list(map(int, input(
-        "Digite a matrícula do aluno e a nota AV2 separados por espaço: "
-    ).split()))
+    entrada = int, input(
+        "Digite a matrícula do aluno e a nota AV2 separados por espaço: ").split()
+    matricula = int(entrada[0])
+    nota = float(entrada[1])
     alunos[matricula][1] = nota
 
 
 def lancar_av3():
-    matricula, nota = list(map(int, input(
-        "Digite a matrícula do aluno e a nota AV3 separados por espaço: "
-    ).split()))
+    entrada = int, input(
+        "Digite a matrícula do aluno e a nota AV3 separados por espaço: ").split()
+    matricula = int(entrada[0])
+    nota = float(entrada[1])
     alunos[matricula][2] = nota
     calcular_media(matricula)
 

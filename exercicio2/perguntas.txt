@@ -1,12 +1,10 @@
 perguntas trabalho 2
 
-1. preciso me preocupar com erros de digitacao? posso garantir que todas as entradas serao digitadas sengundo um padrao?
-ex: ao colocar matricula e nota, ele coloca so matricula. isso causa erro no sistema. devo tratar esses casos ou ele garante que so colocara entradas validas?
+quais dos seguintes cenarios de erros deve tratar e quais nao seri possiveis de acontecer?
 
-2. no texto ele diz que apenas que calculara a media ao adicionar a nota av3. logo, eh garantido que ao lancar a av3, todas as outras notas ja terao sido lancadas?
-
-3. preciso me preocupar com os valores inseridos em cada entrada? ex: ele pode colocar uma nota maior que 10 ou menor que 0? se sim, devo tratar esses casos?
-
-cenarios de erros que podem surgir:
-
-1. 
+1. valor errado no menu (no programa vai de 1 a 5 com 0 sendo saida, mas ele pode digitar 6, por exemplo)
+2. ao adicionar uma nota, passar uma quantidade diferente de dois valores que sao matricula e nota
+3. passar valores que nao se encaixam como matricula (inteiros de 1 a 30)
+4. passar valores que nao se encaixam como notas (floats de 0 a 10)
+5. ao calcular a media, nao ter todas as notas (av1, av2 e av3) para aquele aluno
+6. ao visualizar os aprovados ou os reprovados, ter alunos sem todas as notas
