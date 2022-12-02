@@ -1,0 +1,6 @@
+perguntas trabalho 3
+
+1. o usuario pode cadastrar um ingrediente que ja foi cadastrado anteriormente?
+    1.1. cadastrando um ingrediente que ja foi cadastrado anteriormente, o usuario pode cadastrar uma unidade diferente da unidade que foi cadastrada pra esse mesmo ingrediente anteriormente?
+        1.1.1. cadastrando um ingrediente ja cadastrado porem com uma nova unidade, qual unidade devera ser mantida como padrao?
+2. o usuario pode inserir um quantitativo de um ingrediente que nao foi cadstrado anteriormente?
